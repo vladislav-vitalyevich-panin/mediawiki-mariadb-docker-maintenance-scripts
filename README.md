@@ -23,7 +23,9 @@ in /resources/assets/, save it - restore.sh will restore it as well.
 ### restore.sh
 **WARNING - THIS SCRIPT DESTROYS THE OLD DATABASE**. If your database is corrupted but not completely lost I suggest backing up the data.
 1. Place the xml_backup and db_backup folders, as well as your LocalSettings.php and your logo (but only if the logo is in png format and is set to be 
-in /resources/assets/) at the directory, from which you'll run restore.sh
+in /resources/assets/) at the directory named "backup", **which is a subdirectory of the directory from which you'll run restore.sh**
+   Example: You will run restore.sh from ./test
+   What to do: Create folder ./test/backup and place xmd_dump, db_dump, images folder, LocalSettings.php and (optionally) your logo there.
 2. Start the mariadb and mediawiki containers
 3. Run restore.sh
 
