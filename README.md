@@ -31,3 +31,4 @@ in /resources/assets/) at the directory named "backup", **which is a subdirector
 
 When it's done, you should be able to log in successfully using your credentials.
 
+This project is licensed under the terms of the MIT license, the copy of which is located in this repository (LICENSE file).
